@@ -1,0 +1,103 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 0.5rem;
+}
+
+.intro {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 1rem;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+  border-right: 1px solid black;
+}
+
+.column:last-child {
+  border-right: none;
+}
+
+.column h2 {
+  margin-top: 0;
+}
+
+.projects ul,
+.education ul {
+  padding-left: 1rem;
+}
+
+.projects li,
+.education li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid black;
+}
+
+.work a {
+  display: block;
+  margin: 0.5rem 0;
+  color: blue;
+  text-decoration: none;
+}
+
+.reviews {
+  text-align: center;
+  padding: 2rem;
+}
+
+.review-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.review {
+  width: 250px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+.review span {
+  display: block;
+  margin-top: 1rem;
+  color: grey;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
